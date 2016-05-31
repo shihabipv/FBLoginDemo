@@ -6,13 +6,13 @@
 //  Copyright © 2015 Shihabul. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FBViewController.h"
 
-@interface ViewController ()
+@interface FBViewController ()
 
 @end
 
-@implementation ViewController
+@implementation FBViewController
 
 
 - (void)viewDidLoad {
