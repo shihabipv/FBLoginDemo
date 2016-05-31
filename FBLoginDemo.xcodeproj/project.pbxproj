@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EE11B761C0EF3BD0079D3DF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE11B751C0EF3BD0079D3DF /* ProfileViewController.m */; };
+		9EE11B761C0EF3BD0079D3DF /* FBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE11B751C0EF3BD0079D3DF /* FBProfileViewController.m */; };
 		9EEB34631C003EC900155816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34621C003EC900155816 /* main.m */; };
 		9EEB34661C003EC900155816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34651C003EC900155816 /* AppDelegate.m */; };
-		9EEB34691C003EC900155816 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34681C003EC900155816 /* ViewController.m */; };
+		9EEB34691C003EC900155816 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34681C003EC900155816 /* FBViewController.m */; };
 		9EEB346C1C003EC900155816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346A1C003EC900155816 /* Main.storyboard */; };
 		9EEB346E1C003EC900155816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346D1C003EC900155816 /* Assets.xcassets */; };
 		9EEB34711C003EC900155816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346F1C003EC900155816 /* LaunchScreen.storyboard */; };
@@ -20,14 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9EE11B741C0EF3BD0079D3DF /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		9EE11B751C0EF3BD0079D3DF /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		9EE11B741C0EF3BD0079D3DF /* FBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBProfileViewController.h; sourceTree = "<group>"; };
+		9EE11B751C0EF3BD0079D3DF /* FBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBProfileViewController.m; sourceTree = "<group>"; };
 		9EEB345E1C003EC900155816 /* FBLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEB34621C003EC900155816 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EEB34641C003EC900155816 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EEB34651C003EC900155816 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9EEB34671C003EC900155816 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9EEB34681C003EC900155816 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EEB34671C003EC900155816 /* FBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
+		9EEB34681C003EC900155816 /* FBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
 		9EEB346B1C003EC900155816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EEB346D1C003EC900155816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EEB34701C003EC900155816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,11 +73,11 @@
 			children = (
 				9EEB34641C003EC900155816 /* AppDelegate.h */,
 				9EEB34651C003EC900155816 /* AppDelegate.m */,
-				9EEB34671C003EC900155816 /* ViewController.h */,
-				9EEB34681C003EC900155816 /* ViewController.m */,
+				9EEB34671C003EC900155816 /* FBViewController.h */,
+				9EEB34681C003EC900155816 /* FBViewController.m */,
 				9EEB346A1C003EC900155816 /* Main.storyboard */,
-				9EE11B741C0EF3BD0079D3DF /* ProfileViewController.h */,
-				9EE11B751C0EF3BD0079D3DF /* ProfileViewController.m */,
+				9EE11B741C0EF3BD0079D3DF /* FBProfileViewController.h */,
+				9EE11B751C0EF3BD0079D3DF /* FBProfileViewController.m */,
 				9EEB346D1C003EC900155816 /* Assets.xcassets */,
 				9EEB346F1C003EC900155816 /* LaunchScreen.storyboard */,
 				9EEB34721C003EC900155816 /* Info.plist */,
@@ -175,9 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEB34691C003EC900155816 /* ViewController.m in Sources */,
+				9EEB34691C003EC900155816 /* FBViewController.m in Sources */,
 				9EEB34661C003EC900155816 /* AppDelegate.m in Sources */,
-				9EE11B761C0EF3BD0079D3DF /* ProfileViewController.m in Sources */,
+				9EE11B761C0EF3BD0079D3DF /* FBProfileViewController.m in Sources */,
 				9EEB34631C003EC900155816 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

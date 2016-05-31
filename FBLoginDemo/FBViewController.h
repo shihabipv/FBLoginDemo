@@ -10,7 +10,7 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import "ProfileViewController.h"
-@interface ViewController : UIViewController
+@interface FBViewController : UIViewController
 
 @end
 

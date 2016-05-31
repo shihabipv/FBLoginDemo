@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
-@interface ProfileViewController : UIViewController
+@interface FBProfileViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIImageView *profileImage;
 @property (weak, nonatomic) IBOutlet UILabel *emailField;
 @property (weak, nonatomic) IBOutlet UILabel *nameField;

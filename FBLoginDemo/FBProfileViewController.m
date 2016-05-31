@@ -6,13 +6,13 @@
 //  Copyright © 2015 Shihabul. All rights reserved.
 //
 
-#import "ProfileViewController.h"
+#import "FBProfileViewController.h"
 
-@interface ProfileViewController ()
+@interface FBProfileViewController ()
 
 @end
 
-@implementation ProfileViewController
+@implementation FBProfileViewController
 @synthesize profileImage,emailField,nameField;
 
 - (void)viewDidLoad {
