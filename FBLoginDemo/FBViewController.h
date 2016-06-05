@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
-#import "ProfileViewController.h"
+#import "FBProfileViewController.h"
 @interface FBViewController : UIViewController
-
+- (NSString*)printSomething;
 @end
 

@@ -93,4 +93,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (NSString*)printSomething{
+    return @"In FBLoginDemo...";
+}
+
 @end
