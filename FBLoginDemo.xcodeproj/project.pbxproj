@@ -11,9 +11,8 @@
 		9EEB34631C003EC900155816 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34621C003EC900155816 /* main.m */; };
 		9EEB34661C003EC900155816 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34651C003EC900155816 /* AppDelegate.m */; };
 		9EEB34691C003EC900155816 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEB34681C003EC900155816 /* FBViewController.m */; };
-		9EEB346C1C003EC900155816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346A1C003EC900155816 /* Main.storyboard */; };
+		9EEB346C1C003EC900155816 /* FBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346A1C003EC900155816 /* FBMain.storyboard */; };
 		9EEB346E1C003EC900155816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346D1C003EC900155816 /* Assets.xcassets */; };
-		9EEB34711C003EC900155816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EEB346F1C003EC900155816 /* LaunchScreen.storyboard */; };
 		A8E128761C4E50EB00D4F741 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E128751C4E50EB00D4F741 /* FBSDKLoginKit.framework */; };
 		A8E128781C4E510F00D4F741 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E128771C4E510F00D4F741 /* FBSDKShareKit.framework */; };
 		A8E1287A1C4E512000D4F741 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E128791C4E512000D4F741 /* FBSDKCoreKit.framework */; };
@@ -30,9 +29,8 @@
 		9EEB34651C003EC900155816 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9EEB34671C003EC900155816 /* FBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
 		9EEB34681C003EC900155816 /* FBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
-		9EEB346B1C003EC900155816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EEB346B1C003EC900155816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FBMain.storyboard; sourceTree = "<group>"; };
 		9EEB346D1C003EC900155816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EEB34701C003EC900155816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EEB34721C003EC900155816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E128751C4E50EB00D4F741 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Softwares/Frameworks/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		A8E128771C4E510F00D4F741 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Softwares/Frameworks/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
@@ -77,9 +75,14 @@
 		9EEB34601C003EC900155816 /* FBLoginDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A82FEB481D041C33003794F4 /* Resource */,
-				A82FEB471D041C1B003794F4 /* View */,
-				A82FEB451D041BFA003794F4 /* Controller */,
+				9EEB34641C003EC900155816 /* AppDelegate.h */,
+				9EEB34651C003EC900155816 /* AppDelegate.m */,
+				9EEB34671C003EC900155816 /* FBViewController.h */,
+				9EEB34681C003EC900155816 /* FBViewController.m */,
+				9EE11B741C0EF3BD0079D3DF /* FBProfileViewController.h */,
+				9EE11B751C0EF3BD0079D3DF /* FBProfileViewController.m */,
+				9EEB346A1C003EC900155816 /* FBMain.storyboard */,
+				9EEB346D1C003EC900155816 /* Assets.xcassets */,
 				9EEB34721C003EC900155816 /* Info.plist */,
 				9EEB34611C003EC900155816 /* Supporting Files */,
 			);
@@ -103,36 +106,6 @@
 				AC2115B043A09A49640BAA56 /* Pods_FBLoginDemo.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A82FEB451D041BFA003794F4 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				9EEB34641C003EC900155816 /* AppDelegate.h */,
-				9EEB34651C003EC900155816 /* AppDelegate.m */,
-				9EEB34671C003EC900155816 /* FBViewController.h */,
-				9EEB34681C003EC900155816 /* FBViewController.m */,
-				9EE11B741C0EF3BD0079D3DF /* FBProfileViewController.h */,
-				9EE11B751C0EF3BD0079D3DF /* FBProfileViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		A82FEB471D041C1B003794F4 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9EEB346A1C003EC900155816 /* Main.storyboard */,
-				9EEB346F1C003EC900155816 /* LaunchScreen.storyboard */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		A82FEB481D041C33003794F4 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				9EEB346D1C003EC900155816 /* Assets.xcassets */,
-			);
-			name = Resource;
 			sourceTree = "<group>";
 		};
 		FA214DF4F37B8FD9A09B46E0 /* Pods */ = {
@@ -205,9 +178,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEB34711C003EC900155816 /* LaunchScreen.storyboard in Resources */,
 				9EEB346E1C003EC900155816 /* Assets.xcassets in Resources */,
-				9EEB346C1C003EC900155816 /* Main.storyboard in Resources */,
+				9EEB346C1C003EC900155816 /* FBMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,20 +248,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9EEB346A1C003EC900155816 /* Main.storyboard */ = {
+		9EEB346A1C003EC900155816 /* FBMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9EEB346B1C003EC900155816 /* Base */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9EEB346F1C003EC900155816 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9EEB34701C003EC900155816 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = FBMain.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
