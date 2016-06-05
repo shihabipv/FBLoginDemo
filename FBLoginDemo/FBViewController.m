@@ -94,7 +94,7 @@
 }
 
 - (NSString*)printSomething{
-    return @"In FBLoginDemo...";
+    return @"From FBLoginDemo...";
 }
 
 @end
