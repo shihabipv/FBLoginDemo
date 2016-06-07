@@ -11,9 +11,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.1'
   
   s.name             = 'FBLoginDemo'
-  s.version          = '1.0.0'
+  s.version          = '0.1.1'
   s.summary          = 'FBLoginDemo is a sample project for Logging into an App using Twitter account.'
-  s.author           = { 'Shihabul Islam' => 'shihabul@ipvisionsoft.com' }
+  s.author           = { 'Md. Shihabul Islam' => 'shihabul@ipvisionsoft.com' }
   
   s.source           = { :git => 'https://github.com/shihabipv/FBLoginDemo.git', :tag => "#{s.version}"}
 
